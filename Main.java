@@ -3,12 +3,12 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Solution349 solution349=new Solution349();
-        int[] one={1,2,2,1};
+        Solution922 solution=new Solution922();
+        int[] one={4,2,5,7};
         int[] two={2,2};
-        for(int s:solution349.intersection(one,two)){
-            System.out.println(s);
-        }
+        for (int num:solution.sortArrayByParityII2(one))
+            System.out.println(num);
+
     }
 }
 
