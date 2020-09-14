@@ -1,18 +1,14 @@
 package com.company;
 
+import com.company.排序.Solution1491;
+
 public class Main {
 
     public static void main(String[] args) {
+        Solution1491 solution=new Solution1491();
+        int[] salary={5,4,2,6,10};
+        solution.average2(salary);
 
-
-        Solution867 solution=new Solution867();
-        int[][] test={{1,2,3,4},{4,5,1,6}};
-        int[][] result=solution.transpose(test);
-        for(int i=0;i<result.length;i++){
-            for(int j=0;j<result[0].length;j++)
-                System.out.print(result[i][j]+" ");
-            System.out.println();
-        }
 
     }
 }
