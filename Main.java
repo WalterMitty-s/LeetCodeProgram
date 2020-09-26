@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.Find.Solution167;
+import com.company.Find.Solution350;
 import com.company.Find.Solution69;
 import com.company.Find.Solution74;
 import com.company.Sort.*;
@@ -8,7 +9,7 @@ import com.company.Sort.*;
 public class Main {
 
     public static void main(String[] args) {
-        Solution74 solution=new Solution74();
+        Solution350 solution=new Solution350();
         int[][] matrix={
                 {1,   3,  5,  7},
                 {23, 30, 34, 50},
@@ -16,8 +17,13 @@ public class Main {
                     };
         int[][] matrix2={{}};
         int target=1;
-        boolean result=solution.searchMatrix(matrix2,target);
-        System.out.println(result);
+        int[] num1={1,2,2,1};
+        int[] num2={2,2};
+        int[] result=solution.intersect(num1,num2);
+        for(int a:result){
+            System.out.print(a+" ");
+        }
+
 
     }
 }
