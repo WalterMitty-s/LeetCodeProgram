@@ -16,11 +16,11 @@ public class Solution16p16 {
      * @return
      */
     public int[] subSort(int[] array) {
-        int[] result=new int[2];
-        result[0]=-1;
-        result[1]=-1;
+        int[] list=new int[2];
+        list[0]=-1;
+        list[1]=-1;
         if(array.length==0)
-            return result;
+            return list;
         int[] copyArray = Arrays.copyOf(array, array.length);
         Arrays.sort(copyArray);
         int i = 0, j = array.length-1;
@@ -31,10 +31,10 @@ public class Solution16p16 {
             j--;
         }
         if(i!=array.length)
-            result[0]=i;
+            list[0]=i;
         if(j!=-1)
-            result[1]=j;
-        return result;
+            list[1]=j;
+        return list;
     }
 
     /**
