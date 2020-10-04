@@ -1,7 +1,5 @@
 package com.company.Find;
 
-
-import java.lang.reflect.Array;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -71,7 +69,7 @@ public class Solution658 {
             int index = Collections.binarySearch(list, x);
             if (index < 0)
                 index = -index - 1;
-            int low = Math.max(0, index - k - 1), high = Math.min(list.size() - 1, index + k - 1);
+            int low = Math.max(0, index - k - 1 ), high = Math.min(list.size() - 1, index + k - 1);
 
             while (high - low > k - 1) {
                 if ((x - list.get(low)) <= (list.get(high) - x))
