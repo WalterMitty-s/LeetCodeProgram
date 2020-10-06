@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class Solution1300 {
     /**
      * 没有思路
-     * 官方解法：
+     * 官方解法：枚举+二分查找
      * @param arr
      * @param target
      * @return
@@ -26,7 +26,7 @@ public class Solution1300 {
         int r=arr[len-1];
         int ans=0,diff=target;
         for(int i=0;i<=r;i++){
-            int index=Arrays.binarySearch(arr,i);
+            int index=Arrays.binarySearch(arr,i);//关于java封装的binarysearch： 如果它包含在指定范围内的数组中，搜索键的索引; 否则， (-(insertion point) - 1)
             if (index < 0) {
                 index=-index-1;
             }
@@ -37,5 +37,16 @@ public class Solution1300 {
             }
         }
         return ans;
+    }
+
+    /**
+     * 官方解法：双重二分查找
+     * @param arr
+     * @param target
+     * @return
+     */
+    public int findBestValue2(int[] arr, int target) {
+
+        return 0;
     }
 }
