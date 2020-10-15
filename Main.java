@@ -1,21 +1,14 @@
 package com.company;
 
-import com.company.Array.BianLi.Solution485;
-import com.company.Array.BianLi.Solution495;
-import com.company.Array.TongJi.Solution41;
-import com.company.Array.TongJi.Solution442;
-import com.company.Array.TongJi.Solution448;
-import com.company.Array.TongJi.Solution645;
-import com.company.Find.Solution50;
 
-import java.util.List;
+import com.company.Array.TongJi.Solution274;
 
 public class Main {
     public static void main(String[] args) {
-        Solution41 solution=new Solution41();
-        int[] nums=new int[]{0,1,1,2,2};
-        int rs=solution.firstMissingPositive2(nums);
-        System.out.println(rs);
+        Solution274 solution=new Solution274();
+        int[] test={3,0,6,1,5};
+        int num=solution.hIndex(test);
+        System.out.println("result is : "+num);
     }
 }
 
