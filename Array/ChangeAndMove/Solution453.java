@@ -84,13 +84,13 @@ public class Solution453 {
      * 于是，我们可以简单的将数组排序一次， moves=\sum_{i=1}^{n-1} (a[i]-a[0])moves=∑
      * i=1
      * n−1
-     * (a[i]−a[0])。
+     * (a[i]−a[0])
      */
     public int minMoves3(int[] nums) {
         int result = 0;
         Arrays.sort(nums);
         for (int i = nums.length - 1; i > 0; i--) {
-            result = nums[i] -nums[0];
+            result = nums[i] - nums[0];
         }
         return result;
     }

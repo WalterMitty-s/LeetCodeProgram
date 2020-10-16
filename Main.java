@@ -1,14 +1,16 @@
 package com.company;
 
 
+import com.company.Array.ChangeAndMove.Solution665;
 import com.company.Array.TongJi.Solution274;
 
 public class Main {
     public static void main(String[] args) {
-        Solution274 solution=new Solution274();
-        int[] test={3,0,6,1,5};
-        int num=solution.hIndex(test);
-        System.out.println("result is : "+num);
+        Solution665 solution=new Solution665();
+        int[] nums = {4, 2, 1};
+        boolean tf=solution.checkPossibility(nums);
+        System.out.println("answer is : "+tf);
     }
+
 }
 
