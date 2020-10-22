@@ -1,13 +1,7 @@
 package com.company;
 
 
-import com.company.Array.ChangeAndMove.Solution283;
-import com.company.Array.ChangeAndMove.Solution665;
-import com.company.Array.TongJi.Solution274;
-import com.company.Array.TwoArray.Solution119;
-import com.company.Array.TwoArray.Solution598;
-
-import java.util.List;
+import com.company.Base.Array.TwoArray.Solution598;
 
 public class Main {
     public static void main(String[] args) {
