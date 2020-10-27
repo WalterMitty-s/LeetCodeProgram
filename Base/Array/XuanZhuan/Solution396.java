@@ -1,4 +1,4 @@
-package com.company.Base.XuanZhuan;
+package com.company.Base.Array.XuanZhuan;
 
 public class Solution396 {
     /**

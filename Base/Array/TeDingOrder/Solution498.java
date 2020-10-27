@@ -1,4 +1,4 @@
-package com.company.Base.TeDingOrder;
+package com.company.Base.Array.TeDingOrder;
 
 import java.util.ArrayList;
 import java.util.Collections;
