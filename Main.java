@@ -1,15 +1,16 @@
 package com.company;
 
 import com.company.Base.AboutString.Solution14;
+import com.company.Base.StackAndDiGui.Solution682;
 
 public class Main {
     public static void main(String[] args) {
-        Solution14 s=new Solution14();
-        String[] strings = new String[0];
-//        strings[0]="flower";
-//        strings[1]="dlow";
-//        strings[2]="flight";
-        System.out.print(s.longestCommonPrefix(strings));
+        Solution682 solution=new Solution682();
+        String[] ops = {"5","2","C","D","+"};
+
+        String[] ops2 = {"5","-2","4","C","D","9","+","+"};
+        int num = solution.calPoints(ops);
+        System.out.println("result is : "+ num);
     }
 
 }
