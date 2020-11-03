@@ -1,4 +1,4 @@
-package com.company.Base.AboutHash;
+package com.company.Base.AboutHash.HashFindInsertDelete;
 
 import java.util.HashMap;
 import java.util.HashSet;
