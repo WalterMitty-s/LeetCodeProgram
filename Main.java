@@ -1,14 +1,14 @@
 package com.company;
 
+import com.company.Base.AboutHash.HashAndQianZhui.Solution523;
 import com.company.Base.AboutHash.HashAndQianZhui.Solution560;
-import com.company.Base.AboutString.Solution14;
-import com.company.Base.StackAndDiGui.Solution682;
 
 public class Main {
     public static void main(String[] args) {
-        Solution560 solution560=new Solution560();
-        int[] nums = new int[]{1, 1, 1};
-        System.out.println("value is : "+solution560.subarraySum(nums,2));
+        Solution523 solution523=new Solution523();
+        int[] nums = {23, 2, 6,4, 7};
+        System.out.println(solution523.checkSubarraySum(nums, 6));
+
     }
 
 }
