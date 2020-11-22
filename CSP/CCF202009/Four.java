@@ -25,7 +25,7 @@ public class Four {
         double[][] p = new double[m][n];    //旅行的目标
         double[][] result=new double[m][m];     //二维数组存储每个点到其它点的距离
         double[] d = new double[m]; //每个点到星球中心距离
-        double[] rd=new double[m];  //对于其它点，每个点到星球的最短距离，注意是切线
+        double[] rd=new double[m];  //对于其它点，每个点到星球的最短距离，注意是切线，只有在相连直线经过星球 时有用
 
         for(int i=0;i<n;i++){
             o[i]=scanner.nextInt();
